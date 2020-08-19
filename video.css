@@ -1,0 +1,73 @@
+body{
+	background: url(img/background.jpg);
+	background-size: 1375px 700px;
+}
+#VideosLayer {
+	position:absolute;
+	z-index:2;
+	left: 395px;
+	top: 135px;
+}
+#Layer1 {
+	position:absolute;
+	height:220px;
+	width:550px;
+	z-index:3;
+	left: 400px;
+	top: 1px;
+}
+#backbutton {
+	position:absolute;
+	width:101px;
+	height:97px;
+	z-index:4;
+	left: 60px;
+	top: 570px;
+}
+.left{
+	position:absolute;
+	width:45px;
+	height:45px;
+	z-index:5;
+	left: 600px;
+	top: 595px;
+	border:none;
+	border-radius:100px;
+	font-size:30px;
+	cursor:pointer;
+}
+.right{
+	position:absolute;
+	width:45px;
+	height:45px;
+	left: 710px;
+	z-index:6;
+	top: 595px;
+	border:none;
+	border-radius:100px;
+	font-size:30px;
+	cursor:pointer;
+}
+.video-container{
+	height:300px;
+	width:300px;
+
+}
+.vid{
+	margin-top:218px;
+	margin-left:350px;
+	border:5px solid green;
+	width:635px;
+	height:430px;
+	background-color:green;
+	border-radius: 5px 5px 15px 15px;
+}
+.videoh{
+	position:absolute;
+	height:100px;
+	width:470px;
+	z-index:3;
+	left: 450px;
+	top: 100px;
+
+}

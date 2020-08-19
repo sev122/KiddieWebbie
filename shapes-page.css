@@ -1,0 +1,44 @@
+body{
+	background: url(img/background.jpg);
+	background-size: 1375px 700px;
+}
+.shape{
+	height:150px;
+	margin-left:410px;
+	
+}
+.back{
+	height:75px;
+	margin-top:115px;
+}
+.home{
+	height:75px;
+	margin-top:115px;
+}
+.left{
+	height:75px;
+	margin-left:345px;
+	margin-top:150px;
+	cursor:pointer;
+}
+.right{
+	height:75px;
+	margin-left:925px;
+	margin-top:-500px;
+	cursor:pointer;
+}
+.picture-container{
+	height:300px;
+	width:300px;
+}
+.shapepic{
+	height:425px;
+	width:425px;
+	margin-left:450px;
+	margin-top:-250px;
+	border: 10px solid white;
+}
+audio{
+	margin-left:515px;
+	
+}

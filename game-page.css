@@ -1,0 +1,31 @@
+body{
+	background: url(img/background.jpg);
+	background-size: 1375px 700px;
+}
+.gameh{
+	height:125px;
+	margin-left:450px;
+	
+}
+.abc{
+	height:230px;
+	margin-left:330px;
+	margin-top:15px;
+}
+.numbers{
+	height:230px;
+}
+.colors{
+	height:230px;
+	
+}
+.shapes{
+	height:220px;
+	margin-left:430px;
+	margin-top:20px;
+}
+
+.back{
+	height:220px;
+	margin-left:20px;
+}

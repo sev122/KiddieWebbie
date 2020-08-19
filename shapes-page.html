@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<title>LESSONS: Shapes</title>
+	<link rel="stylesheet" type="text/css" href="shapes-page.css">
+</head>
+<body>
+<audio autoplay loop>
+  <source src="mp3/Happy Instrumental Music.mp3" type="audio/mpeg">
+</audio>
+	<img class="shape" src="img/shapes-header.png"></a>
+	
+	<div class="picture-container">
+	<a class="prev" onclick="plusSlides(-1)"><img class="left" src="img/left.png"></a>
+	<a class="next" onclick="plusSlides(1)"><img class="right" src="img/Right.png"></a>	
+		<div class="divpic">
+ 			<img class="shapepic" src="img/triangle.jpg">
+			<audio class="shape_name"controls>
+				<source src="mp3/triangle.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<div class="divpic">
+ 			<img class="shapepic" src="img/square.jpg">
+			<audio class="shape_name"controls>
+				<source src="mp3/square.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<div class="divpic">
+ 			<img class="shapepic" src="img/rectangle.jpg">
+			<audio class="shape_name"controls>
+				<source src="mp3/rectangle.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<div class="divpic">
+ 			<img class="shapepic" src="img/oval.jpg">
+			<audio class="shape_name"controls>
+				<source src="mp3/oval.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<div class="divpic">
+ 			<img class="shapepic" src="img/heart.jpg">
+			<audio class="shape_name"controls>
+				<source src="mp3/heart.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<div class="divpic">
+ 			<img class="shapepic" src="img/diamond.jpg">
+			<audio class="shape_name"controls>
+				<source src="mp3/diamond.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<div class="divpic">
+ 			<img class="shapepic" src="img/circle.jpg">
+			<audio class="shape_name"controls>
+				<source src="mp3/circle.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<div class="divpic">
+ 			<img class="shapepic" src="img/star.jpg">
+			<audio class="shape_name"controls>
+				<source src="mp3/star.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+
+	</div>
+<br>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("divpic");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+  }
+</script>
+	
+	<br><a href="lesson-page.html"><img class="back" src="img/back.png"></a>
+	<a href="index.html"><img class="home" src="img/home-iconr.png"></a>
+</body>
+</html>

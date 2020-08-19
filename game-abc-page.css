@@ -1,0 +1,100 @@
+body{
+	background: url(img/background.jpg);
+	background-size: 1375px 700px;
+}
+.abch{
+	height:150px;
+	margin-left:400px;
+	
+}
+.back{
+	height:75px;
+	margin-top:115px;
+}
+.home{
+	height:75px;
+	margin-top:115px;
+}
+.left{
+	height:75px;
+	margin-left:345px;
+	margin-top:150px;
+	cursor:pointer;
+}
+.right{
+	height:75px;
+	margin-left:925px;
+	margin-top:-500px;
+	cursor:pointer;
+}
+.picture-container{
+	height:300px;
+	width:300px;
+}
+.alphapic{
+	height:370px;
+	width:370px;
+	margin-left:475px;
+	margin-top:-250px;
+	border: 10px solid white;
+}
+.button1{
+	height:50px;
+	width:90px;
+	color:black;
+	font-size:20px;
+	font-family:impact;
+	background-color:yellow;
+	border:2px solid black;
+	border-radius:10px;
+	margin-left:520px;
+	margin-top:15px;
+	cursor:pointer;
+}
+.button1:hover{
+	background-color:green;
+	border:2px solid white;
+	color:white;
+}
+.button2{
+	height:50px;
+	width:90px;
+	color:black;
+	font-size:20px;
+	font-family:impact;
+	background-color:yellow;
+	border:2px solid black;
+	border-radius:10px;
+	margin-left:620px;
+	margin-top:-50px;
+	cursor:pointer;
+	position:absolute;
+}
+.button2:hover{
+	background-color:orange;
+	border:2px solid white;
+	color:white;
+}
+.button3{
+	height:50px;
+	width:90px;
+	color:black;
+	font-size:20px;
+	font-family:impact;
+	background-color:yellow;
+	border:2px solid black;
+	border-radius:10px;
+	margin-left:720px;
+	margin-top:-50px;
+	cursor:pointer;
+	position:absolute;
+}
+.button3:hover{
+	background-color:purple;
+	border:2px solid white;
+	color:white;
+}
+audio{
+	margin-left:515px;
+	
+}

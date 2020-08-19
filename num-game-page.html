@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+
+<title>GAME: Numbers</title>
+	<link rel="stylesheet" type="text/css" href="num-game-page.css">
+</head>
+<body>
+<audio autoplay loop>
+  <source src="mp3/Happy Instrumental Music.mp3" type="audio/mpeg">
+</audio>
+	<img class="numh" src="img/numbers-header.png"></a>
+	
+	<div class="picture-container">
+	<a class="prev" onclick="plusSlides(-1)"><img class="left" src="img/left.png"></a>
+	<a class="next" onclick="plusSlides(1)"><img class="right" src="img/Right.png"></a>	
+		<div class="divpic">
+ 			<img class="qnumpic" src="img/q1.jpg">
+			<audio class="num_name" controls>
+				<source src="mp3/1.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">5</button>
+			<button class="button2" onclick="correct()">1</button>
+			<button class="button3" onclick="c1()">10</button>
+		</div>
+		<div class="divpic">
+ 			<img class="qnumpic" src="img/q2.jpg">
+			<audio class="num_name" controls>
+				<source src="mp3/2.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">9</button>
+			<button class="button2" onclick="c1()">8</button>
+			<button class="button3" onclick="correct()">2</button>
+		</div>
+		<div class="divpic">
+ 			<img class="qnumpic" src="img/q3.jpg">
+			<audio class="num_name" controls>
+				<source src="mp3/3.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">6</button>
+			<button class="button2" onclick="correct()">3</button>
+			<button class="button3" onclick="c1()">9</button>
+		</div>
+		<div class="divpic">
+ 			<img class="qnumpic" src="img/q4.jpg">
+			<audio class="num_name" controls>
+				<source src="mp3/4.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">2</button>
+			<button class="button2" onclick="correct()">4</button>
+			<button class="button3" onclick="c1()">9</button>
+		</div>
+		<div class="divpic">
+ 			<img class="qnumpic" src="img/q5.jpg">
+			<audio class="num_name" controls>
+				<source src="mp3/5.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">7</button>
+			<button class="button2" onclick="c1()">8</button>
+			<button class="button3" onclick="correct()">5</button>
+		</div>
+		<div class="divpic">
+ 			<img class="qnumpic" src="img/q6.jpg">
+			<audio class="num_name" controls>
+				<source src="mp3/6.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">1</button>
+			<button class="button2" onclick="correct()">6</button>
+			<button class="button3" onclick="c1()">8</button>
+		</div>
+		<div class="divpic">
+ 			<img class="qnumpic" src="img/q7.jpg">
+			<audio class="num_name" controls>
+				<source src="mp3/7.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="correct()">7</button>
+			<button class="button2" onclick="c1()">9</button>
+			<button class="button3" onclick="c1()">10</button>
+		</div>
+		<div class="divpic">
+ 			<img class="qnumpic" src="img/q8.jpg">
+			<audio class="num_name" controls>
+				<source src="mp3/8.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">1</button>
+			<button class="button2" onclick="correct()">8</button>
+			<button class="button3" onclick="c1()">2</button>
+		</div>
+		<div class="divpic">
+ 			<img class="qnumpic" src="img/q9.jpg">
+			<audio class="num_name" controls>
+				<source src="mp3/9.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">10</button>
+			<button class="button2" onclick="c1()">1</button>
+			<button class="button3" onclick="correct()">9</button>
+		</div>
+		<div class="divpic">
+ 			<img class="qnumpic" src="img/q10.jpg">
+			<audio class="num_name" controls>
+				<source src="mp3/10.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">5</button>
+			<button class="button2" onclick="c1()">7</button>
+			<button class="button3" onclick="correct()">10</button>
+		</div>
+		
+	</div>
+
+	
+<br>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("divpic");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+  }
+
+function correct(){
+	window.alert("CORRECT!");
+}
+function c1(){
+	window.alert("WRONG!");
+}
+</script>
+	
+	<br><a href="game-page.html"><img class="back" src="img/back.png"></a>
+	<a href="index.html"><img class="home" src="img/home-iconr.png"></a>
+</body>
+</html>

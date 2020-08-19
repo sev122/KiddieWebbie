@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<head>
+<title>GAME: Alphabet</title>
+	<link rel="stylesheet" type="text/css" href="game-abc-page.css">
+</head>
+<body>
+<audio autoplay loop>
+  <source src="mp3/Happy Instrumental Music.mp3" type="audio/mpeg">
+</audio>
+	<img class="abch" src="img/ABCh.png"></a>
+	
+	<div class="picture-container">
+	<a class="prev" onclick="plusSlides(-1)"><img class="left" src="img/left.png"></a>
+	<a class="next" onclick="plusSlides(1)"><img class="right" src="img/Right.png"></a>	
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qA.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/A.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">Z</button>
+			<button class="button2" onclick="c1()">I</button>
+			<button class="button3" onclick="correct()">A</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qB.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/B.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">V</button>
+			<button class="button2" onclick="correct()">B</button>
+			<button class="button3" onclick="c1()">G</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qC.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/C.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">G</button>
+			<button class="button2" onclick="c1()">T</button>
+			<button class="button3" onclick="correct()">C</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qD.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/D.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="correct()">D</button>
+			<button class="button2" onclick="c1()">J</button>
+			<button class="button3" onclick="c1()">I</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qE.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/E.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">R</button>
+			<button class="button2" onclick="correct()">E</button>
+			<button class="button3" onclick="c1()">H</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qF.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/F.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">N</button>
+			<button class="button2" onclick="correct()">F</button>
+			<button class="button3" onclick="c1()">X</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qG.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/G.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="correct()">G</button>
+			<button class="button2" onclick="c1()">E</button>
+			<button class="button3" onclick="c1()">V</button>
+		</div>
+		<div class="divpic">
+		
+ 			<img class="alphapic" src="img/qH.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/H.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">I</button>
+			<button class="button2" onclick="c1()">L</button>
+			<button class="button3" onclick="correct()">H</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qI.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/I.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">K</button>
+			<button class="button2" onclick="correct()">I</button>
+			<button class="button3" onclick="c1()">P</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qJ.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/J.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">B</button>
+			<button class="button2" onclick="correct()">J</button>
+			<button class="button3" onclick="c1()">Q</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qK.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/K.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">I</button>
+			<button class="button2" onclick="c1()">D</button>
+			<button class="button3" onclick="correct()">K</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qL.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/L.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">Y</button>
+			<button class="button2" onclick="c1()">T</button>
+			<button class="button3" onclick="correct()">L</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qM.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/M.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">D</button>
+			<button class="button2" onclick="correct()">M</button>
+			<button class="button3" onclick="c1()">C</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qN.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/N.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">Y</button>
+			<button class="button2" onclick="c1()">Q</button>
+			<button class="button3" onclick="correct()">N</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qO.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/O.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">A</button>
+			<button class="button2" onclick="correct()">O</button>
+			<button class="button3" onclick="c1()">M</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qP.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/P.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="correct()">P</button>
+			<button class="button2" onclick="c1()">M</button>
+			<button class="button3" onclick="c1()">Q</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qQ.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/Q.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">K</button>
+			<button class="button2" onclick="correct()">Q</button>
+			<button class="button3" onclick="c1()">C</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qR.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/R.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">W</button>
+			<button class="button2" onclick="c1()">I</button>
+			<button class="button3" onclick="correct()">R</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qS.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/S.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="correct()">S</button>
+			<button class="button2" onclick="c1()">V</button>
+			<button class="button3" onclick="c1()">K</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qT.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/T.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">S</button>
+			<button class="button2" onclick="c1()">O</button>
+			<button class="button3" onclick="correct()">T</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qU.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/U.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">D</button>
+			<button class="button2" onclick="correct()">U</button>
+			<button class="button3" onclick="c1()">H</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qV.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/V.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">F</button>
+			<button class="button2" onclick="correct()">V</button>
+			<button class="button3" onclick="c1()">T</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qW.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/W.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="correct()">W</button>
+			<button class="button2" onclick="c1()">H</button>
+			<button class="button3" onclick="c1()">J</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qX.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/X.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">C</button>
+			<button class="button2" onclick="c1()">Y</button>
+			<button class="button3" onclick="correct()">X</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qY.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/Y.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">O</button>
+			<button class="button2" onclick="correct()">Y</button>
+			<button class="button3" onclick="c1()">D</button>
+		</div>
+		<div class="divpic">
+ 			<img class="alphapic" src="img/qZ.jpg">
+			<audio class="abc_name" controls>
+				<source src="mp3/Z.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="correct()">Z</button>
+			<button class="button2" onclick="c1()">D</button>
+			<button class="button3" onclick="c1()">S</button>
+		</div>
+
+		
+
+	</div>
+<br>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("divpic");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+  }
+
+function correct(){
+	window.alert("CORRECT!");
+}
+function c1(){
+	window.alert("WRONG!");
+}
+</script>
+	
+	<br><a href="game-page.html"><img class="back" src="img/back.png"></a>
+	<a href="index.html"><img class="home" src="img/home-iconr.png"></a>
+</body>
+</html>

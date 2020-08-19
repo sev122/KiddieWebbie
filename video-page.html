@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Video</title>
+<link rel="stylesheet" type="text/css" href="video.css">
+</head>
+
+<body>
+<audio autoplay loop>
+  <source src="mp3/Happy Instrumental Music.mp3" type="audio/mpeg">
+</audio>
+<div id="backbutton">
+	<a href="index.html">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="img/back.png" width="80" height="80">
+	</a>
+</div>
+	<img id="Layer1" src="toddlers-banner.gif" width="1086px" height="700px">
+	<img class="videoh" src="img/videoss.png" width="1086px" height="700px">
+<div class="video-container">
+	<div class="button">
+	<a class="prev" onclick="plusSlides(-1)"><img class="left" src="img/left.png"></a>
+	<a class="next" onclick="plusSlides(1)"><img class="right" src="img/Right.png"></a>
+	</div>
+		<div class="vid">
+			<video class="video" source src="video/vid1.mp4" width="635px" type="video/mp4" controls></video>
+		</div>
+		<div class="vid">
+			<video class="video" source src="video/vid2.mp4" width="635px" type="video/mp4" controls></video>
+		</div>
+		<div class="vid">
+			<video class="video" source src="video/vid3.mp4" width="635px" type="video/mp4" controls></video>
+		</div>
+		<div class="vid">
+			<video class="video" source src="video/vid4.mp4" width="635px" type="video/mp4" controls></video>
+		</div>
+		<div class="vid">
+			<video class="video" source src="video/vid5.mp4" width="635px" type="video/mp4" controls></video>
+		</div>
+	</div>
+
+	
+<script>
+function bigImg(x) {
+    x.style.height = "104px";
+    x.style.width = "107px";
+}
+
+function normalImg(x) {
+    x.style.height = "94px";
+    x.style.width = "97px";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("vid");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+  }
+</script>
+</body>
+</html>

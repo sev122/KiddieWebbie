@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+
+<title>GAME: Color</title>
+	<link rel="stylesheet" type="text/css" href="game-color-page.css">
+</head>
+<body>
+<audio autoplay loop>
+  <source src="mp3/Happy Instrumental Music.mp3" type="audio/mpeg">
+</audio>
+	<img class="color" src="img/color-header.png"></a>
+	
+	<div class="picture-container">
+	<a class="prev" onclick="plusSlides(-1)"><img class="left" src="img/left.png"></a>
+	<a class="next" onclick="plusSlides(1)"><img class="right" src="img/Right.png"></a>	
+		<div class="divpic">
+ 			<img class="colorpic" src="img/qyellow.jpg">
+			<audio class="color_name" controls>
+				<source src="mp3/Yellow.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">Red</button>
+			<button class="button2" onclick="correct()">Yellow</button>
+			<button class="button3" onclick="c1()">Green</button>
+		</div>
+		<div class="divpic">
+ 			<img class="colorpic" src="img/qwhite.jpg">
+			<audio class="color_name" controls>
+				<source src="mp3/White.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">Black</button>
+			<button class="button2" onclick="c1()">Purple</button>
+			<button class="button3" onclick="correct()">White</button>
+		</div>
+		<div class="divpic">
+ 			<img class="colorpic" src="img/qred.jpg">
+			<audio class="color_name" controls>
+				<source src="mp3/Red.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="correct()">Red</button>
+			<button class="button2" onclick="c1()">Blue</button>
+			<button class="button3" onclick="c1()">Pink</button>
+		</div>
+		<div class="divpic">
+ 			<img class="colorpic" src="img/qpink.jpg">
+			<audio class="color_name" controls>
+				<source src="mp3/Pink.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">White</button>
+			<button class="button2" onclick="c1()">Purple</button>
+			<button class="button3" onclick="correct()">Pink</button>
+		</div>
+		<div class="divpic">
+ 			<img class="colorpic" src="img/qpurple.jpg">
+			<audio class="color_name" controls>
+				<source src="mp3/Purple.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">Blue</button>
+			<button class="button2" onclick="correct()">Purple</button>
+			<button class="button3" onclick="c1()">Orange</button>
+		</div>
+		<div class="divpic">
+ 			<img class="colorpic" src="img/qorange.jpg">
+			<audio class="color_name" controls>
+				<source src="mp3/Orange.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">Yellow</button>
+			<button class="button2" onclick="c1()">Green</button>
+			<button class="button3" onclick="correct()">Orange</button>
+		</div>
+		<div class="divpic">
+ 			<img class="colorpic" src="img/qgreen.jpg">
+			<audio class="color_name" controls>
+				<source src="mp3/Green.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="c1()">Black</button>
+			<button class="button2" onclick="correct()">Green</button>
+			<button class="button3" onclick="c1()">Pink</button>
+		</div>
+		<div class="divpic">
+ 			<img class="colorpic" src="img/qblue.jpg">
+			<audio class="color_name" controls>
+				<source src="mp3/Blue.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="correct()">Blue</button>
+			<button class="button2" onclick="c1()">Green</button>
+			<button class="button3" onclick="c1()">Orange</button>
+		</div>
+		<div class="divpic">
+ 			<img class="colorpic" src="img/qblack.jpg">
+			<audio class="color_name" controls>
+				<source src="mp3/Black.mp3" type="audio/mpeg">
+			</audio>
+			<button class="button1" onclick="correct()">Black</button>
+			<button class="button2" onclick="c1()">Blue</button>
+			<button class="button3" onclick="c1()">Red</button>
+		</div>
+		
+	</div>
+<br>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("divpic");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+  }
+
+
+function correct(){
+	window.alert("CORRECT!");
+}
+function c1(){
+	window.alert("WRONG!");
+}
+</script>
+	
+	<br><a href="game-page.html"><img class="back" src="img/back.png"></a>
+	<a href="index.html"><img class="home" src="img/home-iconr.png"></a>
+</body>
+</html>

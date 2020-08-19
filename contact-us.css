@@ -1,0 +1,56 @@
+body{
+	background: url(img/background.jpg);
+	background-size: 1375px 700px;
+}
+#kidsheader_contact {
+	position:absolute;
+	width:715px;
+	height:216px;
+	z-index:3;
+	left: 273px;
+	top: 52px;
+}
+#backbtn_cntct {
+	position:absolute;
+	width:127px;
+	height:50px;
+	z-index:2;
+	left: 50px;
+	top: 570px;
+}
+#header_contact {
+	position:absolute;
+	width:200px;
+	height:98px;
+	z-index:4;
+	left: 407px;
+	top: 228px;
+}
+.fb1{
+	height: 100px;
+	width: 100px;
+	margin-top: 400px;
+	margin-left: 400px;
+	position: absolute;
+}
+.ig1{
+	height: 100px;
+	width: 100px;
+	margin-top: 400px;
+	margin-left: 535px;
+	position: absolute;
+}
+.twit1{
+	height: 100px;
+	width: 100px;
+	margin-top: 400px;
+	margin-left: 675px;
+	position: absolute;
+}
+.conta1{
+	height: 100px;
+	width: 100px;
+	margin-top: 400px;
+	margin-left: 820px;
+	position: absolute;
+}

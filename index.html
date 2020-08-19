@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>HOME</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+<div id="Layer1"> 
+  <video width="780" height="400" autoplay loop>
+   <source src="video/kidsvid.mp4" type="video/mp4">
+</video> </div>
+<div id="forlogo">
+	<img src="img/logofinal.png" width="293" height="269">
+</div>
+<div id="bgPlayingVid">
+	<img src="img/picbg.png" width="744" height="425">
+</div>
+<div id="videobutton">
+	<a href="video-page.html">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="img/video-icon.png" width="133" height="129">
+	</a>
+</div>
+<div id="contactbutton">
+	<a href="contact-us.html">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="img/home-contact.png" width="127" height="123">
+	</a>
+</div>
+<div id="gamebutton">
+	<a href="game-page.html">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="img/games.png" width="131" height="125">
+	</a>
+</div>
+<div id="lessonsbutton">
+	<a href="lesson-page.html">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="img/lessons.png" width="133" height="131">
+	</a>
+</div>
+
+
+
+<script>
+function bigImg(x) {
+    x.style.height = "140px";
+    x.style.width = "141px";
+}
+
+function normalImg(x) {
+    x.style.height = "133px";
+    x.style.width = "131px";
+}
+</script>
+</body>
+
+</html>

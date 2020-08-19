@@ -1,0 +1,63 @@
+body{
+	background: url(img/background.jpg);
+	background-size: 1375px 700px;
+}
+
+#lessonsbutton {
+	position:absolute;
+	width:136;
+	height:120px;
+	z-index:2;
+	left: 380px;
+	top: 498px;
+}
+#gamebutton {
+	position:absolute;
+	width:136;
+	height:115px;
+	z-index:3;
+	left: 530px;
+	top: 502px;
+}
+#videobutton {
+	position:absolute;
+	width:131px;
+	height:122px;
+	z-index:4;
+	left: 690px;
+	top: 500px;
+	a:hover{elevation:higher}
+}
+#contactbutton {
+	position:absolute;
+	width:122px;
+	height:115px;
+	z-index:5;
+	left: 850px;
+	top: 505px;
+}
+
+#bgPlayingVid {
+	position:absolute;
+	width:748px;
+	height:383px;
+	z-index:7;
+	left: 316px;
+	top: 39px;
+}
+#Layer1 {
+	position:absolute;
+	width:771px;
+	height:390px;
+	z-index:8;
+	left: 297px;
+	top: 52px;
+}
+#forlogo {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:9;
+	left: 235px;
+	top: 216px;
+}
